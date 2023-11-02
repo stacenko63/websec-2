@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Галактические гонки</title>
+    <link rel="stylesheet" href="multiplayer.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="multiplayer.js"></script>
+  </head>
+  <body>
+    <section>
+      <div id="signin">
+        <div class="content">
+          <h2>Авторизация</h2>
+          <div class="form">
+            <div class="inputBox">
+              <input type="text" id="login">
+            </div>
+            <div class="inputBox">
+              <input type="submit" id="authorization_button">
+            </div>
+            <div id="error"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="rating">
+                <a class = "menu-item">Рейтинг игроков:</a>
+                <a class = "menu-item">1.</a>
+                <a class = "menu-item">2.</a>
+                <a class = "menu-item">3.</a>
+                <a class = "menu-item">4.</a>
+                <a class = "menu-item">5.</a>
+                <a class = "menu-item">6.</a>
+                <a class = "menu-item">7.</a>
+                <a class = "menu-item">8.</a>
+                <a class = "menu-item">9.</a>
+                <a class = "menu-item">10.</a>
+    </div>
+  </body>
+</html>

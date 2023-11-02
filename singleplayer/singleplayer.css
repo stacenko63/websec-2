@@ -1,0 +1,13 @@
+body {
+    background: url("../multiplayer/images/screensaver.png");
+    margin: 0px;
+}
+
+#playing_field {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
