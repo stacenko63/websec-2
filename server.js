@@ -211,7 +211,7 @@ socket.on('connection', (socket) => {
   });
 
   socket.on('disconnect', () => {
-    players.splice(players.find((player) => player.id === socket.id), 1);
+    players = players.filter((player) => player.id !== socket.id);
     console.log(`Client with id ${socket.id} disconnected`);
   });
 });
